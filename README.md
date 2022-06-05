@@ -4,7 +4,7 @@ https://pjreddie.com/darknet/yolo/ ( Main link for reference )
 
 You only look once (YOLO) is a state-of-the-art, real-time object detection system. On a Pascal Titan X it processes images at 30 FPS and has a mAP of 57.9% on COCO test-dev.
 
-## Implementation:
+## Implementation:-
 ### Step 1: 
 git clone https://github.com/GuruprasadaShridharHegde/SoftElectron.git
 
