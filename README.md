@@ -20,6 +20,8 @@ Drag SoftElectron folder to desktop. Next, we'll install OpenCV and all the depe
 ### Download weights file from the below google drive link and paste that file in Softlectron folder
 https://drive.google.com/drive/folders/1IEqGFtI1grkLpe5-PzKFoGRWORgdUCCp?usp=sharing
 
+### Open the folder and run test.py to see the results.
+
 
  
 
