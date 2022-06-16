@@ -53,7 +53,7 @@ while True:
             port.write(str.encode(msg+chr(26)))
             time.sleep(3)
             print("message sent")
-            pygame.mixer.music.load("/home/p1/Desktop/YOLOv3-tiny/04.wav")
+            pygame.mixer.music.load("/home/p1/Desktop/SoftElectron/04.wav")
             pygame.mixer.music.play()
             
     elif (GPIO.input(27))==False:
@@ -70,7 +70,7 @@ while True:
             port.write(str.encode(msg+chr(26)))
             time.sleep(3)
             print("message sent")
-            pygame.mixer.music.load("/home/p1/Desktop/YOLOv3-tiny/03.wav")
+            pygame.mixer.music.load("/home/p1/Desktop/SoftElectron/03.wav")
             pygame.mixer.music.play()
 
     else:
@@ -136,7 +136,7 @@ while True:
             # for i in range(i<100):
             if classes[class_ids[i]] == 'bird':
                 pygame.mixer.music.load(
-                    "/home/p1/Desktop/YOLOv3-tiny/bird.mp3")
+                    "/home/p1/Desktop/SoftElectron/bird.mp3")
                 pygame.mixer.music.play()
                 print('Bird Intrusion Alert, sending sms')
                 port.write(b"AT+CMGF=1\r")
@@ -152,7 +152,7 @@ while True:
                 time.sleep(20)
             if classes[class_ids[i]] == 'cat':
                 pygame.mixer.music.load(
-                    "/home/p1/Desktop/YOLOv3-tiny/cat.mp3")
+                    "/home/p1/Desktop/SoftElectron/cat.mp3")
                 pygame.mixer.music.play()
                 print('Cat Intrusion Alert, sending sms')
                 port.write(b"AT+CMGF=1\r")
@@ -168,7 +168,7 @@ while True:
                 time.sleep(20)
             if classes[class_ids[i]] == 'dog':
                 pygame.mixer.music.load(
-                    "/home/p1/Desktop/YOLOv3-tiny/dog.mp3")
+                    "/home/p1/Desktop/SoftElectron/dog.mp3")
                 pygame.mixer.music.play()
                 print('Dog Intrusion Alert, sending sms')
                 port.write(b"AT+CMGF=1\r")
@@ -184,7 +184,7 @@ while True:
                 time.sleep(20)
             if classes[class_ids[i]] == 'horse':
                 pygame.mixer.music.load(
-                    "/home/p1/Desktop/YOLOv3-tiny/horse.mp3")
+                    "/home/p1/Desktop/SoftElectron/horse.mp3")
                 pygame.mixer.music.play()
                 print('Horse Intrusion Alert, sending sms')
                 port.write(b"AT+CMGF=1\r")
@@ -200,7 +200,7 @@ while True:
                 time.sleep(20)
             if classes[class_ids[i]] == 'sheep':
                 pygame.mixer.music.load(
-                    "/home/p1/Desktop/YOLOv3-tiny/sheep.mp3")
+                    "/home/p1/Desktop/SoftElectron/sheep.mp3")
                 pygame.mixer.music.play()
                 print('Sheep Intrusion Alert, sending sms')
                 port.write(b"AT+CMGF=1\r")
@@ -216,7 +216,7 @@ while True:
                 time.sleep(20)
             if classes[class_ids[i]] == 'cow':
                 pygame.mixer.music.load(
-                    "/home/p1/Desktop/YOLOv3-tiny/cow.mp3")
+                    "/home/p1/Desktop/SoftElectron/cow.mp3")
                 pygame.mixer.music.play()
                 print('Cow Intrusion Alert, sending sms')
                 port.write(b"AT+CMGF=1\r")
@@ -232,7 +232,7 @@ while True:
                 time.sleep(20)
             if classes[class_ids[i]] == 'elephant':
                 pygame.mixer.music.load(
-                    "/home/p1/Desktop/YOLOv3-tiny/elephant.mp3")
+                    "/home/p1/Desktop/SoftElectron/elephant.mp3")
                 pygame.mixer.music.play()
                 print('Elephant Intrusion Alert, sending sms')
                 port.write(b"AT+CMGF=1\r")
@@ -248,7 +248,7 @@ while True:
                 time.sleep(20)
             if classes[class_ids[i]] == 'bear':
                 pygame.mixer.music.load(
-                    "/home/p1/Desktop/YOLOv3-tiny/bear.mp3")
+                    "/home/p1/Desktop/SoftElectron/bear.mp3")
                 pygame.mixer.music.play()
                 print('Bear Intrusion Alert, sending sms')
                 port.write(b"AT+CMGF=1\r")
@@ -264,7 +264,7 @@ while True:
                 time.sleep(20)
             if classes[class_ids[i]] == 'zebra':
                 pygame.mixer.music.load(
-                    "/home/p1/Desktop/YOLOv3-tiny/zebra.mp3")
+                    "/home/p1/Desktop/SoftElectron/zebra.mp3")
                 pygame.mixer.music.play()
                 print('Zebra Intrusion Alert, sending sms')
                 port.write(b"AT+CMGF=1\r")
@@ -280,7 +280,7 @@ while True:
                 time.sleep(20)
             if classes[class_ids[i]] == 'giraffe':
                 pygame.mixer.music.load(
-                    "/home/p1/Desktop/YOLOv3-tiny/giraffe.mp3")
+                    "/home/p1/Desktop/SoftElectron/giraffe.mp3")
                 pygame.mixer.music.play()
                 print('Giraffe Intrusion Alert, sending sms')
                 port.write(b"AT+CMGF=1\r")
@@ -297,7 +297,7 @@ while True:
             """if classes[class_ids[i]] == 'person':
                 # time.sleep(5)
                 pygame.mixer.music.load(
-                    "/home/p1/Desktop/YOLOv3-tiny/person.mp3")
+                    "/home/p1/Desktop/SoftElectron/person.mp3")
                 pygame.mixer.music.play()
                 print('Dear farmer, your farmland is secure')
                 time.sleep(20)"""
