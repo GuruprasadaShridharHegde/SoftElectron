@@ -21,13 +21,13 @@ time.sleep(1)
 
 
 
-net = cv2.dnn.readNetFromDarknet("/home/p1/Desktop/YOLOv3-tiny/yolov3-tiny.cfg",
-                                 "/home/p1/Desktop/YOLOv3-tiny/yolov3-tiny.weights")
+net = cv2.dnn.readNetFromDarknet("/home/p1/Desktop/SoftElectron/yolov3-tiny.cfg",
+                                 "/home/p1/Desktop/SoftElectron/yolov3-tiny.weights")
 
 
 # net=cv2.dnn.readNet('yolov3.weights','yolov3.cfg')
 classes = []
-with open("/home/p1/Desktop/YOLOv3-tiny/labels.txt", "r") as f:
+with open("/home/p1/Desktop/SoftElectron/labels.txt", "r") as f:
     classes = f.read().splitlines()
 
 # print(classes)
