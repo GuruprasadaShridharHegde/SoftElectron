@@ -15,6 +15,11 @@ Drag SoftElectron folder to desktop. Next, we'll install OpenCV and all the depe
 #### In terminal 
 --> cd Desktop   
 --> cd SoftElectron
---> bash get_pi_requirements.sh 
+--> bash get_pi_requirements.sh
 
+### Download weights file from the below google drive link and paste that file in Softlectron folder
+https://drive.google.com/drive/folders/1IEqGFtI1grkLpe5-PzKFoGRWORgdUCCp?usp=sharing
+
+
+ 
 
