@@ -1,4 +1,4 @@
-# Software+Electronics = SoftElectron.
+# Software+Electronics = SoftElectron
 ### Step by step implementation
 # YOLO Object Detection Tutorial:
 https://pjreddie.com/darknet/yolo/ ( Main link for reference )
