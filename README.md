@@ -35,7 +35,7 @@ Step 4: Program Execution:
 •	Allocate gpio pins where it connected with Raspberry pi and its peripherals.
 •	Update the mobile number if required.
 
-Step 5: 
+Step 4: 
 
 To enable messaging on GSM module
 •	Set the wiring between the RPi and Sim800C Module as
@@ -63,7 +63,7 @@ or
 •	type AT and then press [ctrl-m] for the carriage return.
 •	Camera cap set to 0, it means raspberry pi camera, if you are using USB camera then make it to 1.
 
-Step 6: 
+Step 5: 
 
 Execution
 •	Open the folder and run test.py to see the results. Initially in terminal shows Farmland is secure. If any breach in between laser or fire detection then different alarm tone will be played and certain message will be sent to the user or farmer. In case of fire detection one sms for user and one sms for the Fire department will be sent.
