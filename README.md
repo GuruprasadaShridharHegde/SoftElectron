@@ -11,11 +11,13 @@ Stepwise Implementation
 ( Note: Below commands are entered in Raspberry-pi Terminal)
 
 Step 1:
+
 Download the repository by copying whole line and paste then enter in Terminal
 git clone https://github.com/GuruprasadaShridharHegde/SoftElectron.git
 The above link contains GitHub repository and that contains required files and documents which are associated with the program. No need to search it everywhere like google or any other internet sources. The above repository is made to public so that anyone can access.
 
 Step 2:
+
 Install OpenCV and its dependencies
 Drag SoftElectron folder to desktop. Next, we'll install OpenCV and all the dependencies needed for the package. Because Open-CV alone will not going to be work, it needs some of its dependencies. So you can install it by one line command in terminal as shown below.
 In terminal
@@ -23,6 +25,7 @@ In terminal
 --> cd SoftElectron --> bash get_pi_requirements.sh
 
 Step 3:
+
 Download weights file from the below google drive link and paste that file in Softlectron folder
 https://drive.google.com/drive/folders/1IEqGFtI1grkLpe5PzKFoGRWORgdUCCp?usp=sharing
 Weights file is about 45Mb so, in GitHub large sized files will not be uploaded, So made one google drive link to access that and it has public access.
@@ -32,7 +35,9 @@ Step 4: Program Execution:
 •	Allocate gpio pins where it connected with Raspberry pi and its peripherals.
 •	Update the mobile number if required.
 
-Step 5: To enable messaging on GSM module
+Step 5: 
+
+To enable messaging on GSM module
 •	Set the wiring between the RPi and Sim800C Module as
 •	RPi 5V ←→ SIM800L VCC_IN
 •	RPi GND ←→ SIM800L GND
@@ -58,7 +63,9 @@ or
 •	type AT and then press [ctrl-m] for the carriage return.
 •	Camera cap set to 0, it means raspberry pi camera, if you are using USB camera then make it to 1.
 
-Step 6: Execution
+Step 6: 
+
+Execution
 •	Open the folder and run test.py to see the results. Initially in terminal shows Farmland is secure. If any breach in between laser or fire detection then different alarm tone will be played and certain message will be sent to the user or farmer. In case of fire detection one sms for user and one sms for the Fire department will be sent.
 •	If any animal intrusion happens, based on type of animal certain irritation frequency tone will be played along with one sms alert to the farmer.
 •	Press ‘Q’ to break the execution in between running.
