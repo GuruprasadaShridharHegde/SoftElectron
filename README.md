@@ -2,14 +2,19 @@
 ### Step by step implementations
 Tutorial:
  By the below steps you can implement the project by own.
+ 
 https://pjreddie.com/darknet/yolo/ ( Main link for reference )
+
 YOLOv3 is extremely fast and accurate. In mAP measured at .5 IOU YOLOv3 is on par with Focal Loss but about 4x faster. Moreover, you can easily tradeoff between speed and accuracy simply by changing the size of the model, no retraining required! You only look once (YOLO) is a state-of-the-art, real-time object detection system. On a Pascal Titan X it processes images at 30 FPS and has a mAP of 57.9% on COCO test-dev.
+
 Stepwise Implementation
 ( Note: Below commands are entered in Raspberry-pi Terminal)
+
 Step 1:
 Download the repository by copying whole line and paste then enter in Terminal
 git clone https://github.com/GuruprasadaShridharHegde/SoftElectron.git
 The above link contains GitHub repository and that contains required files and documents which are associated with the program. No need to search it everywhere like google or any other internet sources. The above repository is made to public so that anyone can access.
+
 Step 2:
 Install OpenCV and its dependencies
 Drag SoftElectron folder to desktop. Next, we'll install OpenCV and all the dependencies needed for the package. Because Open-CV alone will not going to be work, it needs some of its dependencies. So you can install it by one line command in terminal as shown below.
