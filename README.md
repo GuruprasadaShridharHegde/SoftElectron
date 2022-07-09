@@ -21,6 +21,7 @@ Drag SoftElectron folder to desktop. Next, we'll install OpenCV and all the depe
 In terminal
 --> cd Desktop
 --> cd SoftElectron --> bash get_pi_requirements.sh
+
 Step 3:
 Download weights file from the below google drive link and paste that file in Softlectron folder
 https://drive.google.com/drive/folders/1IEqGFtI1grkLpe5PzKFoGRWORgdUCCp?usp=sharing
@@ -30,6 +31,7 @@ Step 4: Program Execution:
 •	In the programming part allocate all file location as an absolute path. Install required libraries if not installed as shows in terminal. 
 •	Allocate gpio pins where it connected with Raspberry pi and its peripherals.
 •	Update the mobile number if required.
+
 Step 5: To enable messaging on GSM module
 •	Set the wiring between the RPi and Sim800C Module as
 •	RPi 5V ←→ SIM800L VCC_IN
@@ -55,6 +57,7 @@ or
 •	# sudo minicom -D /dev/ttyS0 -b 115200 (Working)
 •	type AT and then press [ctrl-m] for the carriage return.
 •	Camera cap set to 0, it means raspberry pi camera, if you are using USB camera then make it to 1.
+
 Step 6: Execution
 •	Open the folder and run test.py to see the results. Initially in terminal shows Farmland is secure. If any breach in between laser or fire detection then different alarm tone will be played and certain message will be sent to the user or farmer. In case of fire detection one sms for user and one sms for the Fire department will be sent.
 •	If any animal intrusion happens, based on type of animal certain irritation frequency tone will be played along with one sms alert to the farmer.
