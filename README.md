@@ -94,4 +94,4 @@ Execution
 
 •	If any animal intrusion happens, based on type of animal certain irritation frequency tone will be played along with one sms alert to the farmer.
 
-•	Press ‘Q’ to break the execution in between running.
+•	Press ‘Q’ to break the execution in between running. 
