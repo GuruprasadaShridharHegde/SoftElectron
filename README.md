@@ -1,4 +1,4 @@
-# Software+Electronics = SoftElectron.
+# Software+Electronics = SoftElectron
 ### Step by step implementations
 Tutorial:
  By the below steps you can implement the project by own.
